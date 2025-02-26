@@ -56,7 +56,6 @@
 .card-front {
     background-color: #1b3a1b;
     transform: rotateY(0deg);
-    z-index: 2; /* Ensures the front stays on top */
 }
 
 .card-back {
