@@ -34,7 +34,7 @@ const App: React.FC = () => {
         </main>
 
         <footer>
-          &copy; 2025 Peregrine Productions + Savant Garde Productions
+          &copy; 2025 Peregrine Productions & Savant Garde Productions
         </footer>
       </div>
     </Router>

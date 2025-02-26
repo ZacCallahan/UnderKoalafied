@@ -1,0 +1,83 @@
+.crew-container {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+.crew-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columns */
+    gap: 80px; /* Add space between cards */
+    justify-content: center;
+    align-items: center;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 60px;
+}
+  
+.crew-card {
+    width: 350px;
+    height: 500px;
+    perspective: 1000px;
+    cursor: pointer;
+    position: relative; /* Keeps it in place */
+}
+  
+.crew-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease-in-out;
+    transform-style: preserve-3d;
+    transform-origin: center; /* Ensures it rotates in place */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+  
+.crew-card-front,
+.crew-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0; /* Ensures both sides stay in place */
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+}
+  
+.crew-card-front {
+    background-color: #1b3a1b;
+}
+  
+.crew-card-back {
+    background-color: #27ae60;
+    color: #fff;
+    transform: rotateY(180deg);
+}
+  
+.crew-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+  
+h3 {
+    margin: 10px 0;
+    color: #fff;
+}
+  
+p {
+    font-size: 1rem;
+    color: #ddd;
+}
+

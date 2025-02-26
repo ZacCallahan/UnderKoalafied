@@ -1,9 +1,9 @@
 const Home: React.FC = () => {
   return (
-    <div>
+    <div className="iframe-container">
       <iframe
-        width="1200"
-        height="720"
+        width="1000"
+        height="700"
         src="https://www.youtube.com/embed/MaZG72kKY5Q"
         title="Trailer"
         frameBorder="0"

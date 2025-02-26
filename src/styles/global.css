@@ -17,6 +17,7 @@ body {
     width: 80%;
     max-width: 900px;
     text-align: center;
+    align-items: center;
     flex-grow: 1;
     margin-top: 200px; /* Push content below fixed header */
   }
@@ -71,7 +72,7 @@ body {
   
   /* Main Content Styles */
   main {
-    margin: 30px 0;
+    padding-top: 80px;
     padding-bottom: 60px;
   }
   
@@ -84,11 +85,13 @@ body {
     margin-top: 15%;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 255, 0, 0.3);
+    justify-content: center;
+    align-items: center;
   }
 
   .logo {
-    width: 700px; /* Adjust size as needed */
+    width: 700px; 
     height: auto;
     display: block;
-    margin: 0 auto; /* Center the logo */
+    margin: 0 auto; 
   }
