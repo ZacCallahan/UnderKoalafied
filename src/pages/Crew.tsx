@@ -51,14 +51,14 @@ const crewMembers: Member[] = [
   },
   {
     name: "Tim Evans",
-    shortBio: "Writer / Co-Director / Composer",
+    shortBio: "Writer / Director",
     fullBio:
       "Timothy Llewellyn Evans is an award-winning writer and composer. His films, ads and music have appeared at the St Kilda Film Festival, late night on SBS, and worldwide. Rising to fame in the late 90's as one of the original Qantas kids, he has parlayed that success into literally tens of views on his Youtube channel. Known for his out-of-the-box wine ideas and penchant for pointless pettifoggery, he is survived by his two children and obsolete DVD collection.",
     image: crew2Img,
   },
   {
     name: "Oscar Thorborg",
-    shortBio: "Co-Director",
+    shortBio: "Co-Director / Try Hard",
     fullBio:
       "Oscar came into this world ahead of schedule and under budget, and nothing has changed. Raised on a steady diet of United Nations ration packs and genre films, he possesses an almost erotically adept mastery of cinematic form and technique. Director of award winning short films about haunted couches, haunted bathtubs, haunted toasters, haunted cupboards, haunted hands and also avocados; he has been an integral multi-hyphenate force at the award-winning Guerilla Creative production house for 10% of a century.",
     image: crew3Img,

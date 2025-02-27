@@ -33,7 +33,7 @@
     align-items: center;
 }
   
-.flipped .card-inner {
+.flipped .crew-card-inner {
     transform: rotateY(180deg);
 }
   
